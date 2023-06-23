@@ -60,8 +60,10 @@
                 <span class="up">HI!</span>
                 <span class="down">I am Aryan Bhat</span>
             </h1>
-            <p class="header-subtitle">FRONTEND WEB DEVELOPER</p>            
-
+            <!-- <p class="header-subtitle">FRONTEND WEB DEVELOPER</p>             -->
+            <p class="header-subtitle">
+                <span id="element"></span>
+            </p>    
             <a href="https://github.com/mobtomc" >
                <button class="btn btn-primary">Visit My Works</button>
             </a>
@@ -410,6 +412,18 @@
 
     <!-- Meyawo js -->
     <script src="public_html/assets/js/meyawo.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+    <script>
+
+        var typed = new Typed('#element', {
+        strings: ['Coder', 'UI/UX Designer' , 'Web Designer','Frontend Developer'  ],
+        typeSpeed: 75,
+        loop:true,
+        backspeed:90,
+
+        });
+    </script>
 
 </body>
 </html>
